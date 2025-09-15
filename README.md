@@ -1,3 +1,3 @@
 "# Single-Page-HTML-CV-Project" 
 run the project 
-https://roadmap.sh/projects/single-page-cv
+[https://roadmap.sh/projects/single-page-cv](https://farid-cv.netlify.app/)
