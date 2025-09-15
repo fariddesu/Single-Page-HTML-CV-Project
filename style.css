@@ -23,7 +23,7 @@ body {
     display: grid;
     place-items: center;
     min-height: 100vh;
-    background: var(--black-col);
+    background-color: var(--black-col);
     font-size: 16px;
 }
 
@@ -74,6 +74,12 @@ h2 {
 h1 {
     font-size: 40px;
     font-weight: 700;
+    color: var(--black-col);
+}
+
+address, address a {
+    font-style: normal;
+    margin-bottom: 1em;
     color: var(--black-col);
 }
 
