@@ -1,3 +1,3 @@
-"# Single-Page-HTML-CV-Project" 
-below is the link for the live preview
-https://farid-cv.netlify.app/
+"# Single-Page-HTML-CV-Project"
+<br>Below is the link for the live preview
+<br>https://farid-cv.netlify.app/
