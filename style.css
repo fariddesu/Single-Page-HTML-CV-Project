@@ -1,13 +1,13 @@
 /* Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shippori+Mincho&display=swap');
 
-:root{
-    --green-col : #33a048;
-    --black-col : #1d2b3a;
-    --blue-col : #1a72c2;
+:root {
+    --green-col: #33a048;
+    --black-col: #1d2b3a;
+    --blue-col: #1a72c2;
 }
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -15,7 +15,7 @@
     font-weight: 500;
 }
 
-body{
+body {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -24,36 +24,87 @@ body{
     place-items: center;
     min-height: 100vh;
     background: var(--black-col);
+    font-size: 16px;
 }
 
-.wrapper{
+main {
     width: 800px;
     height: 100vh;
     background: white;
     padding: 2em;
 }
+a {
+    color: var(--blue-col);
+    text-decoration: none;
+}
 
-section{
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 1px solid var(--black-col);
+}
+
+section {
     margin-bottom: 1em;
 }
 
-.black{
+.black {
     color: var(--black-col);
 }
 
-.blue{
+.blue {
     color: var(--blue-col);
 }
 
-h1, p, h2, h3{
-    padding: 0.3em 0em;
+ul {
+    margin-left: 20px;
 }
 
-h1{
-    font-size: 2em;
+li {
+    color: var(--black-col);
 }
 
-h2{
+h1,
+h2 {
+    margin-bottom: 0.3em;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--black-col);
+}
+
+h2 {
     color: var(--green-col);
+    font-size: 19px;
+}
+
+h2.sub {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h3 {
     font-size: 1em;
+}
+
+p {
+    margin-bottom: 0.1em;
+    color: var(--black-col);
+}
+
+section#edu p,
+#exp p {
+    margin-top: -0.2em;
+    margin-bottom: 0.2em;
+    font-size: 0.9em;
+}
+
+section#exp li {
+    margin-top: -0.2em;
+    margin-bottom: 0.2em;
+    font-size: 0.9em;
 }
